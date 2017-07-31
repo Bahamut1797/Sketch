@@ -21,7 +21,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/food_cover_height"
                     android:background="?attr/selectableItemBackgroundBorderless"
-                    android:clickable="true"
                     android:scaleType="fitXY" />
 
             <TextView
@@ -45,7 +44,7 @@
                     android:paddingRight="@dimen/food_name_padding"
                     android:textSize="@dimen/food_desc" />
 
-            <ImageView
+            <!--ImageView
                     android:id="@+id/overflow"
                     android:layout_width="@dimen/ic_food_overflow_width"
                     android:layout_height="@dimen/ic_food_overflow_height"
@@ -53,7 +52,7 @@
                     android:layout_below="@id/thumbnail"
                     android:layout_marginTop="@dimen/ic_food_overflow_margin_top"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/ic_dots" />
+                    android:src="@drawable/ic_dots" /-->
 
         </RelativeLayout>
 
