@@ -80,7 +80,7 @@ public class TabFragment extends Fragment {
                 subtitle.setText("Deliciosos");
 
                 foodList = new ArrayList<>();
-                adapter = new FoodAdapter(getContext(), foodList);
+                adapter = new FoodAdapter(getContext(), foodList, recyclerView);
 
                 recyclerView.setLayoutManager(mLayoutManager);
                 recyclerView.addItemDecoration(new GridSpacingItemDecoration(2, dpToPx(10), true));
@@ -99,7 +99,7 @@ public class TabFragment extends Fragment {
                 subtitle.setText("Rica");
 
                 foodList = new ArrayList<>();
-                adapter = new FoodAdapter(getContext(), foodList);
+                adapter = new FoodAdapter(getContext(), foodList, recyclerView);
 
                 recyclerView.setLayoutManager(mLayoutManager);
                 recyclerView.addItemDecoration(new GridSpacingItemDecoration(2, dpToPx(10), true));
@@ -119,7 +119,7 @@ public class TabFragment extends Fragment {
                 subtitle.setText("Refrescante");
 
                 foodList = new ArrayList<>();
-                adapter = new FoodAdapter(getContext(), foodList);
+                adapter = new FoodAdapter(getContext(), foodList, recyclerView);
 
                 recyclerView.setLayoutManager(mLayoutManager);
                 recyclerView.addItemDecoration(new GridSpacingItemDecoration(2, dpToPx(10), true));
